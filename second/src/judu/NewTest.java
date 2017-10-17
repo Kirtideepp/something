@@ -11,5 +11,6 @@ public class NewTest {
 	  WebDriver d= new FirefoxDriver();
 	  d.get("http://www.google.com");
 	  d.quit();
+	  d.close();
   }
 }
